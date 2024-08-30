@@ -80,3 +80,6 @@ class _BotCommands:
         self.RssCommand = f"rss{CMD_SUFFIX}"
         self.RmdbCommand = f"rmdb{CMD_SUFFIX}"
         self.RmalltokensCommand = f"rmat{CMD_SUFFIX}"
+
+
+BotCommands = _BotCommands()
